@@ -35,4 +35,7 @@
         width: 100%;
         transform: translate(0%, 0px);
     }
+    select {
+        width: 98%;
+    }
 }
