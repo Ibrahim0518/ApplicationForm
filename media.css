@@ -1,11 +1,13 @@
 @media only screen and (max-width: 600px) {
-    body {
-        /* background-color: lightblue; */
-    }
-
     .Container
     {
         max-width:95%;
+    }
+
+    .form_1>input {
+        margin: 10px 10px;
+        padding: 10px;
+        font-size: 16px;
     }
     .wid_47 {
         width: 100%;
@@ -18,7 +20,7 @@
     }
 
     .sub_header>span {
-        font-size: 56%;
+        font-size: 16px;
     }
 
     .Application_Header {
@@ -31,6 +33,6 @@
     hr {
         position: absolute;
         width: 100%;
-        transform: translate(0%, -4px);
+        transform: translate(0%, 0px);
     }
 }
