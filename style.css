@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "Myfont";
+    src: url("/Application/fonts/OpenSans-Semibold.ttf");
+}
+
+
+* {
+    font-family: myfont;
+}
+
+.circule {
+    Content: url("/logo/Aspira_logo_.png");
+    /* display: inline-block; */
+    text-align: center;
+    align-content: center;
+    width: 40%;
+}
+
+
+.Container {
+    background: white;
+    max-width: 50%;
+    Margin: auto;
+    /* padding: 1%; */
+    border: 1px solid black;
+}
+
+.mar_5 {
+    margin: 5px;
+}
+
+.Application_Header {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.sub_header {
+    position: relative;
+    text-align: center;
+    align-content: center;
+    padding: 1.5rem 0 2.5rem;
+}
+
+hr {
+    position: absolute;
+    width: 100%;
+}
+
+.sub_header>span {
+    position: absolute;
+    background-color: white;
+    transform: translate(-50%, 0%);
+}
+
+.wid_32 {
+    width: 30%;
+    padding: 1%;
+}
+
+.wid_47 {
+    width: 47%;
+    padding: 1%;
+}
+
+.wid_98 {
+    width: 98%;
+    padding: 1%
+}
+
+.form_1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: whitesmoke;
+    padding: 1%;
+}
+
+.form_1>input {
+    margin: 15px 0;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.Submit {
+    text-align: center;
+}
+
+.Submit>input[type="submit"] {
+    min-width: 37%;
+    padding: 1.5%;
+    margin: 2rem;
+    border-radius: 5px;
+}
+
+.Select_Con {
+    text-align: center;
+    align-self: center;
+}
+
+.border_1 {
+    width: 100%;
+    padding: 3%;
+    margin: 0;
+    border: none;
+}
+
+select {
+    padding: 3%;
+    width: 99%;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background: #3B6790;
+    color: white;
+
+}
