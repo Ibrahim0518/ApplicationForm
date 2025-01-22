@@ -3,6 +3,10 @@
         /* background-color: lightblue; */
     }
 
+    .Container
+    {
+        max-width:95%;
+    }
     .wid_47 {
         width: 100%;
         padding: 1%;
